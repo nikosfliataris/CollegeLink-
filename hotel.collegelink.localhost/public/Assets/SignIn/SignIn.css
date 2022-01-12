@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+}
+.container {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 2px solid lightgray;
+}
+.header-items {
+  list-style: none;
+  display: flex;
+  margin: 10px;
+}
+.header-items > .Home-item,
+.Profile-item {
+  margin-left: 10px;
+}
+.items {
+  text-decoration: none;
+  margin-left: 2px;
+}
+.items:hover {
+  color: orangered;
+}
+.SignIn {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: fit-content;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+  padding: 20px;
+  margin-top: 100px;
+}
+.SignIn > div {
+  border-radius: 5px;
+}
+.SignIn > div > form > label {
+  display: flex;
+  justify-content: start;
+  margin-top: 10px;
+}
+.SignIn > div > form > input {
+  display: flex;
+  width: 100%;
+}
+.SignIn > div > form > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 60px;
+  height: 30px;
+  background-color: orangered;
+  color: whitesmoke;
+  border-radius: 5px;
+}
+.SignIn > div > form > button:hover {
+  background-color: whitesmoke;
+  color: orangered;
+  transition: 0.2s ease-in-out;
+}
+.register-info {
+  margin-top: 10px;
+}
+.register-info > span {
+  display: block;
+}
+.hidden {
+  display: none;
+}
