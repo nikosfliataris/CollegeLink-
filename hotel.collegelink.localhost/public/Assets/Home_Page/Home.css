@@ -1,0 +1,524 @@
+body {
+  margin: 0;
+  background-color: #e6e6ff;
+}
+.header-items {
+  list-style: none;
+  display: block;
+  justify-content: center;
+}
+.header-items > li {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px;
+}
+.header-items a {
+  text-decoration: none;
+  color: black;
+}
+
+.Header-section ul li {
+  font-family: "Times New Roman", Times, serif;
+  font-style: initial;
+}
+img {
+  background-image: url("../Images/Burj-Al-Arab-Exterior.jpg");
+  width: 100%;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-section-form {
+  background-color: whitesmoke;
+  display: flex;
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.55;
+  border-radius: 5px;
+}
+.upper-group {
+  display: block;
+}
+.upper-group select {
+  height: 50px;
+  width: 65%;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.lower-group {
+  display: block;
+}
+#from {
+  width: 63%;
+  height: 40px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+#to {
+  width: 63%;
+  height: 40px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.search-button {
+  margin-bottom: 10px;
+  height: 40px;
+  width: 65%;
+  color: whitesmoke;
+  background-color: orangered;
+  border-radius: 10px;
+}
+
+.Footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-top: 2px solid slategray;
+}
+/* Mobile devices max 420px */
+@media (min-width: 420px) {
+  .header-items {
+    list-style: none;
+    display: block;
+    justify-content: center;
+  }
+  .header-items > li {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+  }
+  .header-items a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .Header-section ul li {
+    font-family: "Times New Roman", Times, serif;
+    font-style: initial;
+  }
+  img {
+    background-image: url("../Images/Burj-Al-Arab-Exterior.jpg");
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-section-form {
+    background-color: whitesmoke;
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.55;
+    border-radius: 5px;
+  }
+  .upper-group {
+    display: block;
+  }
+  .upper-group select {
+    height: 50px;
+    width: 65%;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  .lower-group {
+    display: block;
+  }
+  #from {
+    width: 63%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  #to {
+    width: 63%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .search-button {
+    margin-bottom: 10px;
+    height: 40px;
+    width: 65%;
+    color: whitesmoke;
+    background-color: orangered;
+    border-radius: 10px;
+  }
+
+  .Footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 2px solid slategray;
+  }
+}
+/* Mobile devices max 650px*/
+@media (min-width: 650px) {
+  .header-items {
+    list-style: none;
+    display: block;
+    justify-content: center;
+  }
+  .header-items > li {
+    display: flex;
+    font-size: larger;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+  }
+  .header-items a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .Header-section ul li {
+    font-family: "Times New Roman", Times, serif;
+    font-style: initial;
+  }
+  img {
+    background-image: url("../Images/Burj-Al-Arab-Exterior.jpg");
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-section-form {
+    background-color: whitesmoke;
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.55;
+    border-radius: 5px;
+  }
+  .upper-group {
+    display: block;
+  }
+  .upper-group select {
+    height: 50px;
+    width: 65%;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  .lower-group {
+    display: block;
+  }
+  #from {
+    width: 63%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  #to {
+    width: 63%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .search-button {
+    margin-bottom: 10px;
+    height: 40px;
+    width: 65%;
+    color: whitesmoke;
+    background-color: orangered;
+    border-radius: 10px;
+  }
+
+  .Footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 2px solid slategray;
+  }
+}
+/* Mobile and Ipad devices*/
+@media (min-width: 900px) {
+  .header-items {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .header-items a {
+    text-decoration: none;
+    color: black;
+  }
+  .header-items a:hover {
+    text-decoration: none;
+    color: orangered;
+  }
+  .Header-section ul li {
+    font-family: "Times New Roman", Times, serif;
+    font-style: initial;
+  }
+  img {
+    background-image: url("../Images/Burj-Al-Arab-Exterior.jpg");
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-section-form {
+    background-color: whitesmoke;
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.55;
+    border-radius: 5px;
+  }
+  .upper-group select {
+    width: 40%;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  .lower-group {
+    display: flex;
+  }
+  #from {
+    width: 38%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  #to {
+    width: 38%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .search-button {
+    margin-bottom: 10px;
+    height: 40px;
+    width: 80px;
+    color: whitesmoke;
+    background-color: orangered;
+    border-radius: 10px;
+  }
+  .search-button:hover {
+    margin-bottom: 10px;
+    height: 40px;
+    width: 80px;
+    color: orangered;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+  }
+
+  .Footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 2px solid slategray;
+  }
+}
+/* Desctop devices*/
+@media (min-width: 1200px) {
+  .header-items {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .header-items a {
+    text-decoration: none;
+    color: black;
+  }
+  .header-items a:hover {
+    text-decoration: none;
+    color: orangered;
+  }
+  .Header-section ul li {
+    font-family: "Times New Roman", Times, serif;
+    font-style: initial;
+  }
+  img {
+    background-image: url("../Images/Burj-Al-Arab-Exterior.jpg");
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-section-form {
+    background-color: whitesmoke;
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.55;
+    border-radius: 5px;
+  }
+  .upper-group select {
+    width: 40%;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  .lower-group {
+    display: flex;
+  }
+  #from {
+    width: 38%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  #to {
+    width: 38%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .search-button {
+    margin-bottom: 10px;
+    height: 40px;
+    width: 80px;
+    color: whitesmoke;
+    background-color: orangered;
+    border-radius: 10px;
+  }
+  .search-button:hover {
+    margin-bottom: 10px;
+    height: 40px;
+    width: 80px;
+    color: orangered;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+  }
+
+  .Footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 2px solid slategray;
+  }
+}
+@media (min-width: 1400px) {
+  body {
+    margin: 0;
+    background-color: #e6e6ff;
+    max-width: 1400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header-items {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .header-items a {
+    text-decoration: none;
+    color: black;
+  }
+  .header-items a:hover {
+    text-decoration: none;
+    color: orangered;
+  }
+  .Header-section ul li {
+    font-family: "Times New Roman", Times, serif;
+    font-style: initial;
+  }
+  img {
+    background-image: url("../Images/Burj-Al-Arab-Exterior.jpg");
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-section-form {
+    background-color: whitesmoke;
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.55;
+    border-radius: 5px;
+  }
+  .upper-group select {
+    width: 40%;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  .lower-group {
+    display: flex;
+  }
+  #from {
+    width: 38%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  #to {
+    width: 38%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .search-button {
+    margin-bottom: 10px;
+    height: 40px;
+    width: 80px;
+    color: whitesmoke;
+    background-color: orangered;
+    border-radius: 10px;
+  }
+  .search-button:hover {
+    margin-bottom: 10px;
+    height: 40px;
+    width: 80px;
+    color: orangered;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+  }
+
+  .Footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 2px solid slategray;
+  }
+}

@@ -1,0 +1,747 @@
+body {
+  margin: 0;
+}
+.container {
+  display: block;
+  width: 80%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Header {
+  display: block;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 2px solid lightgray;
+}
+.header-items {
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10px;
+}
+.header-items > li {
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.items {
+  text-decoration: none;
+  margin-left: 2px;
+  display: block;
+}
+.items:hover {
+  color: orangered;
+}
+.profile {
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+.Favorites-Reviews {
+  display: block;
+  width: 100%;
+  margin-right: 80px;
+}
+.favorite {
+  width: 100%;
+}
+.favorite > h2 {
+  color: orangered;
+}
+.favorite > ol {
+  list-style: none;
+  display: block;
+  width: 100%;
+  justify-content: left;
+}
+.favorite > ol > li {
+  justify-content: left;
+  padding: 5px;
+}
+.favorite > ol > li > a {
+  text-decoration: none;
+  font-size: large;
+  color: orangered;
+}
+.reviews {
+  width: 100%;
+}
+.reviews > h2 {
+  color: orangered;
+}
+.reviews > ul {
+  list-style: none;
+  display: block;
+  width: 100%;
+  justify-content: center;
+}
+.reviews > ul > li {
+  display: block;
+  justify-content: left;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.reviews > ul > li > a {
+  text-decoration: none;
+  font-size: large;
+  color: orangered;
+}
+.reviews > ul > i {
+  color: orangered;
+}
+.Profile-secrion {
+  display: flex;
+  width: 70%;
+}
+.result-bar {
+  width: 70%;
+  margin-top: 25px;
+  box-sizing: border-box;
+  border-bottom: 2px solid whitesmoke;
+}
+.result-header {
+  color: white;
+  background-color: orangered;
+}
+.result-hotel {
+  display: flex;
+  justify-content: space-between;
+}
+.result-hotel .result-hotel-image {
+  display: flex;
+  margin-right: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-right: 1px solid orangered;
+}
+.result-hotel .result-hotel-image > img {
+  width: 180px;
+  height: 100%;
+  margin-right: 20px;
+}
+.result-hotel-info {
+  display: block;
+}
+.result-hotel-info > h3 {
+  display: flex;
+  height: 20px;
+  margin-top: -3px;
+}
+.result-hotel-info > h4 {
+  display: flex;
+  height: 20px;
+  margin-top: -15px;
+}
+
+.result-hotel-info > p {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.page-btn {
+  display: flex;
+  float: right;
+  background-color: orangered;
+  color: whitesmoke;
+  border-radius: 5px;
+  height: 30px;
+  align-items: center;
+  text-align: center;
+}
+.page-btn > a {
+  text-decoration: none;
+  color: white;
+}
+.room-characteristics {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.room-characteristics > span {
+  display: flex;
+  width: 20%;
+  height: auto;
+  background-color: gray;
+  color: azure;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.room-characteristics > div {
+  display: flex;
+  flex: 1;
+  background-color: whitesmoke;
+  margin-left: 25px;
+}
+.room-characteristics > div > ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+@media (min-width: 640) {
+  .container {
+    display: block;
+    width: 80%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Header {
+    display: block;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 2px solid lightgray;
+  }
+  .header-items {
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+  }
+  .header-items > li {
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .items {
+    text-decoration: none;
+    margin-left: 2px;
+    display: block;
+  }
+  .items:hover {
+    color: orangered;
+  }
+  .profile {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+  .Favorites-Reviews {
+    display: block;
+    width: 100%;
+    margin-right: 80px;
+  }
+  .favorite {
+    width: 100%;
+  }
+  .favorite > h2 {
+    color: orangered;
+  }
+  .favorite > ol {
+    list-style: none;
+    display: block;
+    width: 100%;
+    justify-content: left;
+  }
+  .favorite > ol > li {
+    justify-content: left;
+    padding: 5px;
+  }
+  .favorite > ol > li > a {
+    text-decoration: none;
+    font-size: large;
+    color: orangered;
+  }
+  .reviews {
+    width: 100%;
+  }
+  .reviews > h2 {
+    color: orangered;
+  }
+  .reviews > ul {
+    list-style: none;
+    display: block;
+    width: 100%;
+    justify-content: center;
+  }
+  .reviews > ul > li {
+    display: block;
+    justify-content: left;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .reviews > ul > li > a {
+    text-decoration: none;
+    font-size: large;
+    color: orangered;
+  }
+  .reviews > ul > i {
+    color: orangered;
+  }
+  .Profile-secrion {
+    display: flex;
+    width: 70%;
+  }
+  .result-bar {
+    width: 70%;
+    margin-top: 25px;
+    box-sizing: border-box;
+    border-bottom: 2px solid whitesmoke;
+  }
+  .result-header {
+    color: white;
+    background-color: orangered;
+  }
+  .result-hotel {
+    display: flex;
+    justify-content: space-between;
+  }
+  .result-hotel .result-hotel-image {
+    display: flex;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-right: 1px solid orangered;
+  }
+  .result-hotel .result-hotel-image > img {
+    width: 180px;
+    height: 100%;
+    margin-right: 20px;
+  }
+  .result-hotel-info {
+    display: block;
+  }
+  .result-hotel-info > h3 {
+    display: flex;
+    height: 20px;
+    margin-top: -3px;
+  }
+  .result-hotel-info > h4 {
+    display: flex;
+    height: 20px;
+    margin-top: -15px;
+  }
+
+  .result-hotel-info > p {
+    display: flex;
+    box-sizing: border-box;
+  }
+
+  .page-btn {
+    display: flex;
+    float: right;
+    background-color: orangered;
+    color: whitesmoke;
+    border-radius: 5px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+  }
+  .page-btn > a {
+    text-decoration: none;
+    color: white;
+  }
+  .room-characteristics {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .room-characteristics > span {
+    display: flex;
+    width: 20%;
+    height: auto;
+    background-color: gray;
+    color: azure;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .room-characteristics > div {
+    display: flex;
+    flex: 1;
+    background-color: whitesmoke;
+    margin-left: 25px;
+  }
+  .room-characteristics > div > ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 940px) {
+  .container {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 2px solid lightgray;
+  }
+  .header-items {
+    list-style: none;
+    display: flex;
+    margin: 10px;
+  }
+  .header-items > .Home-item,
+  .Profile-item {
+    margin-left: 10px;
+  }
+  .items {
+    text-decoration: none;
+    margin-left: 2px;
+  }
+  .items:hover {
+    color: orangered;
+  }
+  .profile {
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+  .Favorites-Reviews {
+    display: block;
+    width: 40%;
+    margin-right: 80px;
+  }
+  .favorite {
+    width: 100%;
+  }
+  .favorite > h2 {
+    color: orangered;
+  }
+  .favorite > ol {
+    list-style: none;
+    display: block;
+    width: 100%;
+    justify-content: left;
+  }
+  .favorite > ol > li {
+    justify-content: left;
+    padding: 5px;
+  }
+  .favorite > ol > li > a {
+    text-decoration: none;
+    font-size: large;
+    color: orangered;
+  }
+  .reviews {
+    width: 100%;
+  }
+  .reviews > h2 {
+    color: orangered;
+  }
+  .reviews > ul {
+    list-style: none;
+    display: block;
+    width: 100%;
+    justify-content: center;
+  }
+  .reviews > ul > li {
+    display: block;
+    justify-content: left;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .reviews > ul > li > a {
+    text-decoration: none;
+    font-size: large;
+    color: orangered;
+  }
+  .reviews > ul > i {
+    color: orangered;
+  }
+  .Profile-secrion {
+    display: flex;
+    width: 70%;
+  }
+  .result-bar {
+    width: 70%;
+    margin-top: 25px;
+    box-sizing: border-box;
+    border-bottom: 2px solid whitesmoke;
+  }
+  .result-header {
+    color: white;
+    background-color: orangered;
+  }
+  .result-hotel {
+    display: flex;
+    justify-content: space-between;
+  }
+  .result-hotel .result-hotel-image {
+    display: flex;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-right: 1px solid orangered;
+  }
+  .result-hotel .result-hotel-image > img {
+    width: 180px;
+    height: 100%;
+    margin-right: 20px;
+  }
+  .result-hotel-info {
+    display: block;
+  }
+  .result-hotel-info > h3 {
+    display: flex;
+    height: 20px;
+    margin-top: -3px;
+  }
+  .result-hotel-info > h4 {
+    display: flex;
+    height: 20px;
+    margin-top: -15px;
+  }
+
+  .result-hotel-info > p {
+    display: flex;
+    box-sizing: border-box;
+  }
+
+  .page-btn {
+    display: flex;
+    float: right;
+    background-color: orangered;
+    color: whitesmoke;
+    border-radius: 5px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+  }
+  .page-btn > a {
+    text-decoration: none;
+    color: white;
+  }
+  .room-characteristics {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .room-characteristics > span {
+    display: flex;
+    width: 20%;
+    height: auto;
+    background-color: gray;
+    color: azure;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .room-characteristics > div {
+    display: flex;
+    flex: 1;
+    background-color: whitesmoke;
+    margin-left: 25px;
+  }
+  .room-characteristics > div > ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 2px solid lightgray;
+  }
+  .header-items {
+    list-style: none;
+    display: flex;
+    margin: 10px;
+  }
+  .header-items > .Home-item,
+  .Profile-item {
+    margin-left: 10px;
+  }
+  .items {
+    text-decoration: none;
+    margin-left: 2px;
+  }
+  .items:hover {
+    color: orangered;
+  }
+  .profile {
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+  .Favorites-Reviews {
+    display: block;
+    width: 40%;
+    margin-right: 80px;
+  }
+  .favorite {
+    width: 100%;
+  }
+  .favorite > h2 {
+    color: orangered;
+  }
+  .favorite > ol {
+    list-style: none;
+    display: block;
+    width: 100%;
+    justify-content: left;
+  }
+  .favorite > ol > li {
+    justify-content: left;
+    padding: 5px;
+  }
+  .favorite > ol > li > a {
+    text-decoration: none;
+    font-size: large;
+    color: orangered;
+  }
+  .reviews {
+    width: 100%;
+  }
+  .reviews > h2 {
+    color: orangered;
+  }
+  .reviews > ul {
+    list-style: none;
+    display: block;
+    width: 100%;
+    justify-content: center;
+  }
+  .reviews > ul > li {
+    display: block;
+    justify-content: left;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .reviews > ul > li > a {
+    text-decoration: none;
+    font-size: large;
+    color: orangered;
+  }
+  .reviews > ul > i {
+    color: orangered;
+  }
+  .Profile-secrion {
+    display: flex;
+    width: 70%;
+  }
+  .result-bar {
+    width: 70%;
+    margin-top: 25px;
+    box-sizing: border-box;
+    border-bottom: 2px solid whitesmoke;
+  }
+  .result-header {
+    color: white;
+    background-color: orangered;
+  }
+  .result-hotel {
+    display: flex;
+    justify-content: space-between;
+  }
+  .result-hotel .result-hotel-image {
+    display: flex;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-right: 1px solid orangered;
+  }
+  .result-hotel .result-hotel-image > img {
+    width: 180px;
+    height: 100%;
+    margin-right: 20px;
+  }
+  .result-hotel-info {
+    display: block;
+  }
+  .result-hotel-info > h3 {
+    display: flex;
+    height: 20px;
+    margin-top: -3px;
+  }
+  .result-hotel-info > h4 {
+    display: flex;
+    height: 20px;
+    margin-top: -15px;
+  }
+
+  .result-hotel-info > p {
+    display: flex;
+    box-sizing: border-box;
+  }
+
+  .page-btn {
+    display: flex;
+    float: right;
+    background-color: orangered;
+    color: whitesmoke;
+    border-radius: 5px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+  }
+  .page-btn > a {
+    text-decoration: none;
+    color: white;
+  }
+  .room-characteristics {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .room-characteristics > span {
+    display: flex;
+    width: 20%;
+    height: auto;
+    background-color: gray;
+    color: azure;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .room-characteristics > div {
+    display: flex;
+    flex: 1;
+    background-color: whitesmoke;
+    margin-left: 25px;
+  }
+  .room-characteristics > div > ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}
